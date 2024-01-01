@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+	<Version>1.0.0</Version>
+	<Authors>Balint Nagy</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="B.Atomics" Version="1.0.0" />
+    <PackageReference Include="B.Intervals" Version="1.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+    <PackageReference Include="YAGuard" Version="1.1.4" />
+  </ItemGroup>
+
+</Project>
